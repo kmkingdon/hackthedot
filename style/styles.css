@@ -1,3 +1,27 @@
 .hidden {
 	display: none;
 }
+
+body {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(128, 0, 0);
+}
+
+img {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	width: 100vh;
+	height: auto;
+}
+
+button {
+	width: 100vh;
+	height: 30vh;
+	background-color: green;
+	color: white;
+	font-size: ;
+}
